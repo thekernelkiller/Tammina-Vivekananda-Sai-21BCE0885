@@ -1,6 +1,5 @@
+# HitWicket Software Engineering Assignment Submission
 # Turn-based Chess-like Game (WebSocket-based Multiplayer)
-
-## HitWicket Software Engineering Assignment Submission
 
 ### Description
 Backend (Golang):
