@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Turn-based Chess-like Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Turn-based Chess-like Game by T Vivekananda Sai</h1>
+
+        <div id="game-info">
+            <span id="current-player">Current Player: </span>
+        </div>
+
+        <div id="game-board"></div> 
+        <div id="move-buttons"></div>
+
+        <div id="move-history">
+            <h2>Move History</h2>
+            <ul id="move-list">
+            </ul>
+        </div>
+
+        <div id="game-over-screen" class="hidden">
+            <div class="game-over-content">
+                <h2 id="game-over-message"></h2>
+                <button id="new-game-button">New Game</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
